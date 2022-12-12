@@ -74,6 +74,8 @@ pombe_chroms = ['chr1', 'chr2', 'chr3', 'mat']
 
 tair8_chroms = ['chr1', 'chr2', 'chr3', 'chr4', 'chr5']
 
+tair10_chroms = ['chr1','chr2','chr3','chr4','chr5','chrMt','chrPt']
+
 mm8_chrom_lengths = {'chr1': 197069962, 'chr2': 181976762, 'chr3': 159872112,
                      'chr4': 155029701, 'chr5': 152003063, 'chr6': 149525685,
                      'chr7': 145134094, 'chr8': 132085098, 'chr9': 124000669,
@@ -165,6 +167,9 @@ dm3_chrom_lengths = {'chr2L': 23011544,
 tair8_chrom_lengths = {'chr1': 30427671, 'chr2': 19698289, 'chr3': 23459830,
                        'chr4': 18585056, 'chr5': 26975502}
 
+tair10_chrom_lengths = {'chr1': 30427671, 'chr2': 19698289, 'chr3': 23459830,
+                        'chr4': 18585056, 'chr5': 26975502, 'chrMt': 366924, 'chrPt': 154478}
+
 sacCer1_chrom_lengths = {'chr1': 230208, 'chr2': 813136, 'chr3': 316613,
                          'chr4': 1531914, 'chr5': 576869, 'chr6': 270148,
                          'chr7': 1090944, 'chr8': 562639, 'chr9': 439885,
@@ -187,6 +192,7 @@ species_chroms = {'mm8': mm8_chroms,
                   "pombe": pombe_chroms,
                   'rn4': rn4_chroms,
                   'tair8': tair8_chroms,
+                  'tair10': tair10_chroms,
                   'background': background_chroms}
 
 species_chrom_lengths = {'mm8': mm8_chrom_lengths,
@@ -201,4 +207,5 @@ species_chrom_lengths = {'mm8': mm8_chrom_lengths,
                          'pombe': pombe_chrom_lengths,
                          'rn4': rn4_chrom_lengths,
                          'tair8': tair8_chrom_lengths,
+                         'tair10': tair10_chrom_lengths,
                          'background': background_chrom_lengths}
